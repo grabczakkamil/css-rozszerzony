@@ -1,0 +1,9 @@
+#tlo-obrazek {
+    width: 700px;
+    height: 700px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRoX_BsZZ4WhQxuXNFd4EOagRAztCAkI77f7bYvVfOLc1tt6xeGg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: contain;
+}
