@@ -1,0 +1,19 @@
+img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 30px;
+    transition: transform 2s linear;
+}
+
+.rotate-example img:hover {
+    transform: rotate(90deg);
+
+}
+
+.translate-example img:hover {
+    transform: translate(200px, -200px);
+}
+
+.scale-example img:hover {
+    transform: scale(1.5);
+}
