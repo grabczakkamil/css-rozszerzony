@@ -3,11 +3,14 @@ img {
     height: 500px;
     margin-bottom: 30px;
     transition: transform 2s linear;
+
+    transform-origin: top left;
+    /*określa w którym miejscu chwyta obrazek, zamiast top left może być np. 20% 20%*/
 }
 
 .rotate-example img:hover {
     transform: rotate(90deg);
-
+    /* z minusem kręci się w drugą stronę*/
 }
 
 .translate-example img:hover {
