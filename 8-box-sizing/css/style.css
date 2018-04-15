@@ -1,3 +1,4 @@
+/*
 * {
     box-sizing: border-box;
 }
@@ -9,4 +10,17 @@
     padding: 50px;
     font-size: 32px;
     box-sizing: border-box;
+}
+*/
+
+.box {
+    border: 3px solid red;
+    height: 200px;
+    width: 25%;
+    float:left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.box:nth-of-type(2) {
+    overflow: auto;
 }
